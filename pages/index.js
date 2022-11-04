@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>FrontendMentor</h1>;
+  return <h1 className="text-3xl font-bold underline">FrontendMentor</h1>;
 }
