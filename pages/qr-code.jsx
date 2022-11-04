@@ -7,21 +7,21 @@ export default function QrCode() {
       <Head>
         <title>Frontend Mentor - QR Code</title>
       </Head>
-      <div className="bg-slate-200 h-screen flex items-center justify-center">
+      <div className="flex h-screen items-center justify-center bg-slate-200">
         <main>
-          <article className="bg-white w-80 p-4 rounded-2xl">
+          <article className="w-80 rounded-2xl bg-white p-4">
             <Image
               src="/image-qr-code.png"
               alt="QR Code"
               width={288}
               height={288}
-              className="rounded-lg mb-6"
+              className="mb-6 rounded-lg"
             />
             <div className="flex flex-col space-y-4 pb-6">
-              <h1 className="text-center text-slate-800 text-xl font-extrabold">
+              <h1 className="text-center text-xl font-extrabold text-slate-800">
                 Improve your front-end skills by building projects
               </h1>
-              <p className="text-center text-slate-500 text-sm font-extralight">
+              <p className="text-center text-sm font-extralight text-slate-500">
                 Scan the QR code to visit Frontend Mentor and take your coding
                 skills to the next level
               </p>
