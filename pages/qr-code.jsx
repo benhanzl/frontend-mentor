@@ -7,7 +7,7 @@ export default function QrCode() {
       <Head>
         <title>Frontend Mentor - QR Code</title>
       </Head>
-      <div className="bg-zinc-100 h-screen flex items-center justify-center">
+      <div className="bg-slate-200 h-screen flex items-center justify-center">
         <main>
           <article className="bg-white w-80 p-4 rounded-2xl">
             <Image
