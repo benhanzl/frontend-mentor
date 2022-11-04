@@ -17,15 +17,15 @@ export default function QrCode() {
               height={288}
               className="rounded-lg mb-6"
             />
-            <section className="flex flex-col space-y-4 pb-6">
-              <h2 className="text-center text-slate-800 text-xl font-extrabold">
+            <div className="flex flex-col space-y-4 pb-6">
+              <h1 className="text-center text-slate-800 text-xl font-extrabold">
                 Improve your front-end skills by building projects
-              </h2>
+              </h1>
               <p className="text-center text-slate-500 text-sm font-extralight">
                 Scan the QR code to visit Frontend Mentor and take your coding
                 skills to the next level
               </p>
-            </section>
+            </div>
           </article>
         </main>
       </div>
