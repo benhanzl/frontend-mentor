@@ -7,7 +7,7 @@ export default function ProductPreviewCard() {
       <Head>
         <title>Frontend Mentor - Product Preview Card</title>
       </Head>
-      <div className="min-h-screen bg-orange-50">
+      <div className="min-h-screen bg-orange-50 sm:flex sm:items-center sm:justify-center">
         <main className="py-7 px-4">
           <article className="mx-auto flex max-w-2xl flex-col sm:flex-row">
             <Image
